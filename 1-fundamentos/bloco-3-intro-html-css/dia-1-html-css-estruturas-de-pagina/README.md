@@ -1,0 +1,5 @@
+# EXERCÍCIOS
+
+## BLOCO 3
+
+### DIA 1
