@@ -1,0 +1,45 @@
+body {
+  width: auto;
+  background-color: gainsboro;
+}
+
+h1,
+p {
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+p {
+  font-size: 50px;
+  margin: auto;
+}
+
+ol li {
+  font-size: 200%;
+  margin: 50px;
+}
+
+ol li:hover {
+  background-color: teal;
+  transition: 0.7s;
+  width: 100%;
+}
+
+ol li:active {
+  font-weight: 900;
+  font-size: 400%;
+  transition: 0.7s;
+}
+
+ul li {
+  font-size: 180%;
+  margin: 30px;
+}
+
+li {
+  list-style: none;
+}
