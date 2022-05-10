@@ -10,19 +10,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [✅] 1-3: _[Unix & Shell- Part 1](https://github.com/ViniciusRogatti/trybe-exercicios/tree/tentativaDeLink/Fundamentos/Bloco%2001/unix%20%26%20bash%20parte%201)
-- [✅] 1-4: _[Unix & Shell- Part 2](https://github.com/ViniciusRogatti/trybe-exercicios/tree/master/Fundamentos/Bloco%2001/unix%20%26%20bash%20parte%202)
+- [✅] 1-3: _[Unix & Shell- Part 1]
+- [✅] 1-4: _[Unix & Shell- Part 2]
 
 ##### Bloco 2: Git & GitHub
 
 - [✅] 2-1: _O que é e para que serve?_
+- [✅] 2-2: _Entendendo os comandos_
 - [✅] 2-2: _Entendendo os comandos__
 - [✅] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
 - [✅] 3-1: _HTML & CSS - Estruturas de página_
-
+- [✅] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [✅] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [✅] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
