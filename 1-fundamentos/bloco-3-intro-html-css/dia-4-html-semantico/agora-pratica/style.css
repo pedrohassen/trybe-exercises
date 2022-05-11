@@ -81,24 +81,26 @@ main article h2 {
 
 .refB h3 {
   flex: 1;
+  padding: 50px;
 }
 
 .refB li {
+  margin: 10px;
+  padding: 10px;
   flex: 1;
+  font-size: 20px;
 }
 
 .refB a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
-  padding: 20px;
 }
 
 .refB a:hover {
   color: lightseagreen;
   font-weight: 900;
   transition: 0.7s;
-  font-size: 30px;
+  font-size: 40px;
   margin: auto;
 }
 
