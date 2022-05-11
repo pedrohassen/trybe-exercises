@@ -7,7 +7,8 @@ body {
   background-color: lightseagreen;
 }
 
-header, footer {
+header,
+footer {
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -15,7 +16,7 @@ header, footer {
   justify-content: center;
 }
 
-header h3 {
+header h1 {
   font-size: 50px;
 }
 
