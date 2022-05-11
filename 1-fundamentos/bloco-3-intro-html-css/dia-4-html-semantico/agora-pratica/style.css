@@ -1,0 +1,130 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+body {
+  background-color: lightseagreen;
+}
+
+header, footer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header h3 {
+  font-size: 50px;
+}
+
+header nav ul li {
+  display: inline-block;
+  font-size: 20px;
+  padding: auto;
+  margin: 10px;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color: rgba(182, 208, 207, 0.783);
+}
+
+article {
+  width: 80%;
+}
+
+main article h2 {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section1 h3 {
+  padding: 15px;
+  font-size: 30px;
+}
+
+.section1 p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.section2 h3,
+.section3 h3,
+.refB h3 {
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.section2 p,
+.section3 p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.refB {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.refB h3 {
+  flex: 1;
+}
+
+.refB li {
+  flex: 1;
+}
+
+.refB a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.refB a:hover {
+  color: lightseagreen;
+  font-weight: 900;
+  transition: 0.7s;
+  font-size: 30px;
+  margin: auto;
+}
+
+aside {
+  width: 20%;
+}
+
+aside h4 {
+  width: 80%;
+  font-size: 35px;
+  padding: 20px;
+}
+
+.video {
+  width: 90%;
+  padding: 5%;
+  justify-content: center;
+}
+
+.imgsize {
+  padding: 15px;
+  margin-left: 25%;
+  width: 500px;
+}
+
+.foco {
+  font-style: italic;
+  font-weight: 800;
+}
