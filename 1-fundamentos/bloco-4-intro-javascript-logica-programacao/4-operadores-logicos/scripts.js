@@ -48,10 +48,37 @@
 // Experimente trocar o valor da string ou até mesmo montar seu próprio algoritmo. Esse assunto é muito importante para seu aprendizado :).
 
 
-let weekDay = "domingo";
+// let weekDay = "domingo";
 
-if (weekDay === "segunda-feira" || "terça-feira" || "quarta-feira" || "quinta-feira" || "sexta-feira") {
-  console.log("Oba, mais um dia de aprendizado na Trybe >:D");
-} else {
-  console.log("FINALMENTE, descanso merecido UwU");
+// if (weekDay === "segunda-feira" || "terça-feira" || "quarta-feira" || "quinta-feira" || "sexta-feira") {
+//   console.log("Oba, mais um dia de aprendizado na Trybe >:D");
+// } else {
+//   console.log("FINALMENTE, descanso merecido UwU");
+// }
+
+
+
+//SWITCH CASE
+// Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo, que pode ser: 'aprovada', 'lista' ou 'reprovada';
+// Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for 'aprovada', 'lista' ou 'reprovada'. Como default, imprima a mensagem de 'não se aplica'.
+// A estrutura switch/case é utilizada quando queremos executar diferentes ações. A expressão que passamos para o switch é avaliada apenas uma vez, e o seu valor é comparado em cada caso. Se essa comparação for verdadeira, o código do caso avaliado é executado. Se nenhum valor satisfizer os casos listados, é executado o código em default.
+
+
+let result = "reprovada";
+
+switch (result) {
+  case "aprovada":
+    console.log("Parabéns");
+    break;
+  
+  case "lista":
+    console.log("Não desista, ainda podemos te chamar")
+    break;
+
+  case "reprovada":
+    console.log("Estude mais que na próxima vai")
+    break;
+
+  default:
+    console.log("não se aplica")
 }
