@@ -131,3 +131,8 @@ aside h4 {
   font-style: italic;
   font-weight: 800;
 }
+
+.abrelink {
+  text-align: center;
+  font-size: 15px;
+}
