@@ -64,7 +64,7 @@
 // A estrutura switch/case é utilizada quando queremos executar diferentes ações. A expressão que passamos para o switch é avaliada apenas uma vez, e o seu valor é comparado em cada caso. Se essa comparação for verdadeira, o código do caso avaliado é executado. Se nenhum valor satisfizer os casos listados, é executado o código em default.
 
 
-let result = "reprovada";
+let result = "aprovada";
 
 switch (result) {
   case "aprovada":
@@ -72,13 +72,13 @@ switch (result) {
     break;
   
   case "lista":
-    console.log("Não desista, ainda podemos te chamar")
+    console.log("Não desista, ainda podemos te chamar");
     break;
 
   case "reprovada":
-    console.log("Estude mais que na próxima vai")
+    console.log("Estude mais que na próxima vai");
     break;
 
   default:
-    console.log("não se aplica")
+    console.log("não se aplica");
 }
