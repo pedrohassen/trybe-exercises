@@ -117,6 +117,8 @@ ________________________________________________________________________________
 
 // Ou seja, 10 x 9 x 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1 = 10!
 
+
+//  PRIMEIRA RESOLUÇÃO
 // let fatorial = 1;
 
 // for (index = 1; index <= 10; index += 1) {
@@ -124,3 +126,30 @@ ________________________________________________________________________________
 // }
 // console.log(fatorial);
 
+
+//  FORMA REFATORADA
+// let fatorando = 10; // variavel que indica o número a ser fatorado
+// let fatorial = 1; // variavel que seta o início da multiplicação ?
+
+// for (index = fatorial; index <= fatorando; index += 1) {
+//   fatorial *= index;
+// }
+// console.log(fatorial);
+
+
+// EXERCICIO 2
+// Agora, desenvolva um algoritmo que é capaz de inverter uma palavra. Por exemplo, a palavra "banana" seria invertida para "ananab". Utilize a string abaixo como exemplo, depois troque por outras para verificar se seu algoritmo está funcionando corretamente.
+
+// let word = 'tryber'; //variavel que contem a palavra a ser invertida
+// let drow = ''; //variavel que vai receber a palavra já invertida
+
+
+// CRIEI UM MONSTRO QUE RODA PRA SEMPRE
+
+// for (index = word.length-1; index >= 0; index -= 1) {
+//   drow[index] = word[index];
+//   for (index = 0; index <= drow.length; index += 1) {
+//     drow[index] = word[index];
+//   }
+//   console.log(drow);
+// }
