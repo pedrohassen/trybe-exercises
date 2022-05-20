@@ -55,7 +55,7 @@
       let changeParagraph1 = document.getElementsByTagName('p')[1];
       changeParagraph1.innerText = "DORIME!"
       }
-      
+
       changeParagraph();
 
 //  Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
@@ -68,6 +68,13 @@
       changeBoxSides();
 
 //  Crie uma função que mude a cor do quadrado vermelho para branco.
+
+function changeInnerBox() {
+  let changeBoxColor1 = document.getElementsByClassName('center-content')[0];
+  changeBoxColor1.style.background = 'white';
+}
+
+changeInnerBox();
 //  Crie uma função que corrija o texto da tag <h1>.
 //  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
 //  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
