@@ -1,3 +1,4 @@
+// PARTE 1:
 // 1. 🚀 Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
 
 const elementH1 = document.createElement('h1');
@@ -62,8 +63,15 @@ for (let numbers in fromOneToTen) {
 
 // 9. 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
 
-// Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
+for (let index = 1; index <= 3; index += 1) {
+const elementH3 = document.createElement('h3');
+elementH3.innerHTML = 'Eu prometo não olhar o gabarito toda hora';
+elementMain.appendChild(elementH3);
+}
+
+// PARTE 2:
 // 1. 🚀 Adicione a classe title na tag h1 criada;
+
 // 2. 🚀 Adicione a classe description nas 3 tags h3 criadas;
 // 3. 🚀 Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
 // 4. 🚀 Centralize a section criado no passo 6 (aquele que possui a classe right-content). Dica: para centralizar, basta configurar o margin-right: auto da section;
