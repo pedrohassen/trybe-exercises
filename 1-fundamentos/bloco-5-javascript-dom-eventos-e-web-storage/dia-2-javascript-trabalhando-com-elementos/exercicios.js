@@ -17,15 +17,11 @@ const elementSection = document.createElement('section');
 elementSection.className = 'center-content';
 elementMain.appendChild(elementSection);
 
-console.log(elementMain);
-
 // 4. 🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
 
 const elementP = document.createElement('p');
 elementP.innerText = 'Fique perplecto com essas imagens que mudam a cada F5!';
 elementSection.appendChild(elementP);
-
-console.log(elementP);
 
 // 5. 🚀 Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
 
@@ -33,15 +29,11 @@ const elementLeftSection = document.createElement('section');
 elementLeftSection.className = 'left-content';
 elementMain.appendChild(elementLeftSection);
 
-console.log(elementLeftSection);
-
 // 6. 🚀 Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
 
 const elementRightSection = document.createElement('section');
 elementRightSection.className = 'right-content';
 elementMain.appendChild(elementRightSection);
-
-console.log(elementRightSection);
 
 // 7. 🚀 Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5;
 
@@ -72,8 +64,21 @@ elementMain.appendChild(elementH3);
 // PARTE 2:
 // 1. 🚀 Adicione a classe title na tag h1 criada;
 
+const classH1 = document.querySelector('h1');
+classH1.className = 'title';
+
 // 2. 🚀 Adicione a classe description nas 3 tags h3 criadas;
-// 3. 🚀 Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
+
+const classH3 = document.getElementsByTagName('h3');
+for (let index = 0; index < 3; index += 1) {
+  classH3[index].className = 'description';
+}
+
+// 3. 🚀 Remova a section criada no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
+
+const removeLeftSection = document.getElementsByClassName('left-content')[0];
+elementMain.removeChild(removeLeftSection);
+
 // 4. 🚀 Centralize a section criado no passo 6 (aquele que possui a classe right-content). Dica: para centralizar, basta configurar o margin-right: auto da section;
 // 5. 🚀 Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
 // 6. 🚀 Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
