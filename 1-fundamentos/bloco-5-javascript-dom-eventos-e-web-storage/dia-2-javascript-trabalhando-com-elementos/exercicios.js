@@ -50,6 +50,16 @@ elementImg.className = 'small-image';
 elementLeftSection.appendChild(elementImg);
 
 // 8. 🚀 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+
+const elementUl = document.createElement('ul');
+elementRightSection.appendChild(elementUl);
+const fromOneToTen = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+for (let numbers in fromOneToTen) {
+  const elementLi = document.createElement('li');
+  elementLi.innerHTML = fromOneToTen[numbers];
+  elementUl.appendChild(elementLi);
+}
+
 // 9. 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
 
 // Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
