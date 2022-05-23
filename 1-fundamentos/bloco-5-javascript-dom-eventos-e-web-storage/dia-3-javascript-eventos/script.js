@@ -59,11 +59,11 @@ btnHolidays('Feriados');
 
 //EXERCICIO 3
 
-const colorInOut = (changeColor) => {
+const colorInOut = (normalColor, white) => {
   const getHolidayButton = document.querySelector('#btn-holiday');
   const getHolidays = document.querySelectorAll('.holiday');
-  const normalColor = 'rgb(238,238,238)';
-  const white = 'white';
+  // const normalColor = 'rgb(238,238,238)';
+  // const white = 'white';
 
   getHolidayButton.addEventListener('click', function() {
     for (let change in holiday) {
@@ -76,16 +76,36 @@ const colorInOut = (changeColor) => {
   })
 };
 
-colorInOut();
+colorInOut('rgb(238,238,238)', 'white');
 
 
 //EXERCICIO 4
 
 const itsFriday = (friday) => {
   let sextou = document.createElement('button');
-  sextou.className = 'btn-friday';
+  sextou.id = 'btn-friday';
   sextou.innerHTML = friday;
   div.appendChild(sextou);
 }
 
-itsFriday('Sexta Feira');
+itsFriday('Sexta-feira');
+
+//EXERCICIO 5
+
+const changeText = (toFriday) => {
+  const getFridayButton = document.querySelector('#btn-friday');
+  const getFridays = document.querySelectorAll('.friday');
+  // const fridays = 'Sexta-feira;'
+
+  getFridayButton.addEventListener('click', function() {
+    for (let change in friday) {
+      if (getFridays[change].innerText === toFriday) {
+        getFridays[change].innerText = friday[change];
+      } else {
+        getFridays[change].innerText = toFriday;
+      }
+    }
+  })
+};
+
+changeText('Sexta-feira');
