@@ -56,3 +56,24 @@ const btnHolidays = (Feriados) => {
 }
 
 btnHolidays('Feriados');
+
+//EXERCICIO 3
+
+const colorInOut = (changeColor) => {
+  const getHolidayButton = document.querySelector('#btn-holiday');
+  const getHolidays = document.querySelectorAll('.holiday');
+  const normalColor = 'rgb(238,238,238)';
+  const white = 'white';
+
+  getHolidayButton.addEventListener('click', function() {
+    for (let change in holiday) {
+      if (getHolidays[change].style.backgroundColor === white) {
+        getHolidays[change].style.backgroundColor = normalColor;
+      } else {
+        getHolidays[change].style.backgroundColor = white;
+      }
+    }
+  })
+};
+
+colorInOut();
