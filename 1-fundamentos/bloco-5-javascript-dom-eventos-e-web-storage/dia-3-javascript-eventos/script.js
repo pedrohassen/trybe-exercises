@@ -45,3 +45,14 @@ for (let index of dezDaysList) {
   }
 }
 
+//EXERCICIO 2
+
+let div = document.querySelectorAll('div')[2];
+const btnHolidays = (Feriados) => {
+  let botaoFeriados = document.createElement('button');
+  botaoFeriados.id = 'btn-holiday';
+  botaoFeriados.innerText = Feriados;
+  div.appendChild(botaoFeriados);
+}
+
+btnHolidays('Feriados');
