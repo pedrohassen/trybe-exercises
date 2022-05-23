@@ -77,3 +77,15 @@ const colorInOut = (changeColor) => {
 };
 
 colorInOut();
+
+
+//EXERCICIO 4
+
+const itsFriday = (friday) => {
+  let sextou = document.createElement('button');
+  sextou.className = 'btn-friday';
+  sextou.innerHTML = friday;
+  div.appendChild(sextou);
+}
+
+itsFriday('Sexta Feira');
