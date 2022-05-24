@@ -67,10 +67,11 @@ const colorInOut = (normalColor, white) => {
 
   getHolidayButton.addEventListener('click', function() {
     for (let change in holiday) {
-      if (getHolidays[change].style.backgroundColor === white) {
-        getHolidays[change].style.backgroundColor = normalColor;
+      let caminho = getHolidays[change].style;
+      if (caminho.backgroundColor === white) {
+        caminho.backgroundColor = normalColor;
       } else {
-        getHolidays[change].style.backgroundColor = white;
+        caminho.backgroundColor = white;
       }
     }
   })
@@ -109,3 +110,29 @@ const changeText = (toFriday) => {
 };
 
 changeText('Sexta-feira');
+
+// EXERCICIO 6
+
+const zoomIn = () => {
+  let daysAcess = document.querySelector('#days');
+
+  daysAcess.addEventListener('mouseover', (event) => {
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600';
+  })
+};
+
+const zoomOut = () => {
+  let daysAcess = document.querySelector('#days');
+
+  daysAcess.addEventListener('mouseout', (event) => {
+    event.target.style.fontSize = '20px';
+    event.target.style.fontWeight = '200';
+  })
+};
+
+zoomIn();
+
+zoomOut();
+
+// EXERCICIO 7
