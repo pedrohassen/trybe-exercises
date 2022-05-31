@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(222, 222, 222);
+}
+
+#form-header {
+  background-color: #eee;
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.form-content {
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.form-container {
+  line-height: 60px;
+  margin: 40px 50px;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+#btn1 , #btn2 {
+  padding: 10px;
+  border-radius: 25%;
+}
+
+#btn1 {
+  margin-left: 15%;
+}
+
+#btn2 {
+  margin-left: 25%;
+}
+
+textarea {
+  width: 90%;
+  resize: none;
+}
