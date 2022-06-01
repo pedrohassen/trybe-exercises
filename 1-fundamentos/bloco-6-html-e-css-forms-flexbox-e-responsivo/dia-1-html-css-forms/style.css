@@ -28,6 +28,19 @@ body {
   padding: 20px;
 }
 
+#nameput {
+  width: 50%;
+}
+
+#mailput {
+  width: 56%;
+}
+
+.destinies {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 #btn1 , #btn2 {
   padding: 10px;
   border-radius: 25%;
