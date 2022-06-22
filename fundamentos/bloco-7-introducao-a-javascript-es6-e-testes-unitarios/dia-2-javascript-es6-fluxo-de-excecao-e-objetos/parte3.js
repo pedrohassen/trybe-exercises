@@ -129,7 +129,7 @@ const getInfo = (obj, name) => {
   const allLessons = [];
   let allStudent = 0;
   const array = Object.values(obj);
-  for (index in array) {
+  for (let index in array) {
     if (array[index].professor === name) {
       allLessons.push(array[index].materia);
       allStudent += array[index].numeroEstudantes;
