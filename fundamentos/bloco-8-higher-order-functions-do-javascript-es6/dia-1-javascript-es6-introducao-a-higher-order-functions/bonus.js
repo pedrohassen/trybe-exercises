@@ -127,3 +127,33 @@ gameActions.mageTurn(mageDamage);
 gameActions.dragonTurn(dragonDamage);
 gameActions.endTurn();
 console.log(gameActions.endTurn());
+// TURNO 5
+gameActions.warriorTurn(warriorDamage);
+gameActions.mageTurn(mageDamage);
+gameActions.dragonTurn(dragonDamage);
+gameActions.endTurn();
+console.log(gameActions.endTurn());
+// TURNO 6
+gameActions.warriorTurn(warriorDamage);
+gameActions.mageTurn(mageDamage);
+gameActions.dragonTurn(dragonDamage);
+gameActions.endTurn();
+console.log(gameActions.endTurn());
+// TURNO 7
+gameActions.warriorTurn(warriorDamage);
+gameActions.mageTurn(mageDamage);
+gameActions.dragonTurn(dragonDamage);
+gameActions.endTurn();
+console.log(gameActions.endTurn());
+// TURNO 8
+gameActions.warriorTurn(warriorDamage);
+gameActions.mageTurn(mageDamage);
+gameActions.dragonTurn(dragonDamage);
+gameActions.endTurn();
+console.log(gameActions.endTurn());
+// TURNO 9
+gameActions.warriorTurn(warriorDamage);
+gameActions.mageTurn(mageDamage);
+gameActions.dragonTurn(dragonDamage);
+gameActions.endTurn();
+console.log(gameActions.endTurn());
