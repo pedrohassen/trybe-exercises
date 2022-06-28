@@ -143,11 +143,16 @@ console.log(containsA(names));
 const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
 const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 
-function studentAverage(element) {
-  
+function studentAverage(element1, element2) {
+  return element1.map((name, index) => {
+    return {
+      name,
+      average: element2[index].reduce((acc, curr) => (acc + curr), 0) / element2[index].length,
+    };
+  });
 }
 
-console.log();
+console.log(studentAverage(students, grades));
 
 const expected = [
   { name: 'Pedro Henrique', average: 7.8 },
