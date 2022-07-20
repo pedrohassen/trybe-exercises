@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title-container {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: brown;
+  color: antiquewhite;
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
