@@ -8,14 +8,14 @@ class Pokemon extends Component {
     const { name, type, averageWeight, image } = pokemon;
     const { value, measurementUnit } = averageWeight;
     return (
-      <div className ="poke" key={pokemon.id}>
+      <div className ="poke">
         <div>
-        <p>Name: {name}</p>
-        <p>Type: {type}</p>
-        <p>Average Weight: {value}{measurementUnit}</p>
+          <p>Name: {name}</p>
+          <p>Type: {type}</p>
+          <p>Average Weight: {value}{measurementUnit}</p>
         </div>
         <div className="image">
-        <img src={image} alt="Sprite do Pokémon"/>
+          <img src={image} alt="Sprite do Pokémon"/>
         </div>
       </div>
     )
@@ -34,6 +34,6 @@ Pokemon.propTypes = {
   }).isRequired,
 }
 
-Pokemon.defaultProps = {pokemon: {}}
+Pokemon.defaultProps = {pokemon: {}} // Só preciso do default props se alguma chave não for obrigatória, porque daí se ela não for passada, ela recebe o default.
 
 export default Pokemon;
